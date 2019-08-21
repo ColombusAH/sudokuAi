@@ -10,7 +10,7 @@ import { delay } from 'q';
 export class AppComponent implements OnInit {
   title = 'sudoku';
   data: Observable<number[]>;
-  numberList: number[] = [1, 2, 3, 4];
+  numberList: number[];
   intervalID;
   constructor() {}
   ngOnInit(): void {
