@@ -11,5 +11,6 @@ export class NumberGridComponent implements OnChanges {
 
   ngOnChanges(changes: import('@angular/core').SimpleChanges): void {
     console.log(this.numberList);
+    
   }
 }
